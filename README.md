@@ -2,13 +2,13 @@
 
 ## Info (English)
 
-Shell Script Russian Roulette for Linux.
+Shell Script Russian Roulette for Linux. <br>
 It removes entire server data by 1/6 Chance.
 
 
 ## Info (Korean)
 
-리눅스용 셸스크립트 러시안 룰렛입니다.
+리눅스용 셸스크립트 러시안 룰렛입니다. <br>
 1/6 확률로 시스템의 데이터를 전부 삭제합니다.
 
 
