@@ -21,7 +21,7 @@ GameStart="
 
 SelAction="
 \n
-\n### 1. (Enter any key) Pull Trigger
+\n### 1. (Press any key) Pull Trigger
 \n### 2. Stop Game
 "
 
