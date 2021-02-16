@@ -16,7 +16,6 @@ It removes entire server data by 1/6 Chance.
 
 <pre>
 <code> 
-cd russian_roulette/
 sh game_start.sh
 </code>
 </pre>
