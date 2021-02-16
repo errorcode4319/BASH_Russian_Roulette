@@ -9,8 +9,8 @@ NoticeStart="
 
 SelMag="
 \n\n### 세팅 선택 ###
-\n\n### 1. 기본값 (6발 장탄가능, 총알 1발)
-\n### 2. 직접 설정 (준비중)
+\n\n### 1. 기본값 (권장)
+\n### 2. 직접 설정
 "
 
 GameStart="
@@ -28,3 +28,12 @@ SelAction="
 BulletFired="탕!"
 
 BulletNotFired="찰칵"
+
+SelCham="
+\n\n### 탄창 크기 입력
+"
+
+SelComm="
+\n\n### 실행할 커맨드 입력 ###
+\n
+"

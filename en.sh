@@ -9,8 +9,8 @@ NoticeStart="
 
 SelMag="
 \n\n### Select Game Setting ###
-\n\n### 1. Default Setting (Recommended)
-\n### 2. Advanced (Coming soon)
+\n\n### 1. Default (Recommended)
+\n### 2. Advanced 
 "
 
 GameStart="
@@ -28,3 +28,12 @@ SelAction="
 BulletFired="Bang!"
 
 BulletNotFired="Click"
+
+SelCham="
+\n\n### Enter size of cylinder ###
+"
+
+SelComm="
+\n\n### Enter executable command ###
+\n
+"
