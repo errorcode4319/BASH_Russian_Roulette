@@ -1,5 +1,6 @@
 #!/bin/sh
 
+source ./check.sh;
 echo -e $GameStart;
 
 BulletPos=$(($RANDOM% 6));

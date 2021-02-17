@@ -28,6 +28,8 @@ done
 echo -e $NoticeStart;
 echo -e $SelMag;
 
+codecheck=true;
+
 while [ 1 ]
 do
 	read InputMag;

@@ -1,5 +1,6 @@
 #!/bin/sh
 
+source ./check.sh;
 echo -e $SelCham;
 
 while [ 1 ] 
@@ -7,7 +8,8 @@ do
 	read InputSelCham;
 	r=${InputSelCham#-}
 	r=${InputSelCham//[0-9]/};
-	if [ -z "$r" ]
+	
+	if [ -z "$r" ] 
 	then 
 		break;
 	fi
@@ -26,7 +28,7 @@ i=0;
 
 while [ $i -le `expr $ChamNum - 1` ] 
 do 
-	if [[ $i =~ $BulletPos ]]
+	if [[ $i =~ $BulletPos ]] 
 	then 
 		Chamber[$i]=1;
 	else
@@ -47,7 +49,7 @@ do
                 2 | S | s | Stop | stop)
                         break;;
 		*)
-			if [[ ${Chamber[$i]} =~ 1 ]]
+			if [[ ${Chamber[$i]} =~ 1 ]] 
 			then
 				echo $BulletFired;
 				$InputSelComm;
