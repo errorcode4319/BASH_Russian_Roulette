@@ -31,7 +31,7 @@ This must be run by root.
 <pre>
 <code> 
 cd ./BASH_Russian_Roulette
-sh game_start.sh
+sudo sh game_start.sh
 </code>
 </pre>
 
