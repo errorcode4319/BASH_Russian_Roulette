@@ -29,9 +29,9 @@ Never execute this on a system that has not been backed up!
 This must be run by root.
 
 <pre>
-<code> 
+<code>
 cd ./BASH_Russian_Roulette
-sudo sh game_start.sh
+sudo sh start.sh
 </code>
 </pre>
 
