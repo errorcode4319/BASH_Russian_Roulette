@@ -1,25 +1,22 @@
 #!/bin/sh
 
 if [ $EUID != 0 ]; then 
-	echo "This must be run by root";
+	echo -e "This must be run by root\ntry \"sudo sh start.sh\"";
 	exit;
 fi
 
 echo "### Select your language ###";
-echo "
-### 1. English
-### 2. 한국어
-";
+echo -e "\n### 1. English\n### 2. 한국어\n";
 
-while [ 1 ]; do
-	read InputLang;
+while [ -z $LangSet ]; do
+	read -p ">> " InputLang;
 	case $InputLang in 
 		1 | E | En | en | e | Engilsh | english)
 			source ./en.sh;
-			break;;
+			LangSet=true;;
 		2 | K | Ko | ko | k | Korean | korean)
 			source ./ko.sh;
-			break;;
+			LangSet=true;;
 		*)
 	esac
 done
@@ -66,7 +63,7 @@ advancedsetting() {
 	echo -e $SelCham;
 
 	while [ 1 ]; do
-		read InputSelCham;
+		read -p ">> " InputSelCham;
 		r=${InputSelCham#-}
 		r=${InputSelCham//[0-9]/};
 	
@@ -77,7 +74,7 @@ advancedsetting() {
 	
 	ChamNum=$InputSelCham;
 	echo -e $SelComm;
-	read InputSelComm;
+	read -p ">> " InputSelComm;
 	echo -e $GameStart;
 	BulletPos=$(($RANDOM% $ChamNum));
 	i=0;
@@ -113,7 +110,7 @@ advancedsetting() {
 }
 
 while [ 1 ]; do
-	read InputMag;
+	read -p ">> " InputMag;
 	case $InputMag in
                 1 | D | Default | d | default)
 			defaultsetting;
