@@ -27,16 +27,7 @@ done
 echo -e $NoticeStart;
 echo -e $SelMag;
 
-codecheck=true;
-
-check() {
-	if [ -z "$codecheck" ]; then
-        	exit;
-	fi
-}
-
 defaultsetting() {
-	check;
 	echo -e $GameStart;
 	BulletPos=$(($RANDOM% 6));
 	i=0;
