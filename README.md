@@ -43,7 +43,3 @@ unlink /bin/sh
 ln -s /bin/bash /bin/sh
 </code>
 </pre>
-
-## Screenshot
-
-![1](https://user-images.githubusercontent.com/75349747/108218414-f88d7880-7177-11eb-94e4-fe7b7df12292.PNG)
