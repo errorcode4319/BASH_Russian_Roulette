@@ -2,27 +2,13 @@
 
 ## Info (English)
 
-Shell Script Russian Roulette for Linux.
-
-### Game Settings
-
-Default: Run rm -rf / command by 1/6 chance.
-
-### Warning!
-
-Never execute this on a system that has not been backed up!
+Shell Script Russian Roulette for Linux. <br>
+Run rm -rf / command by 1/6 chance.
 
 ## Info (Korean)
 
-리눅스용 셸스크립트 러시안 룰렛입니다.
-
-### 게임 세팅
-
-기본값: 1/6 확률로 rm -rf / 커맨드가 실행됩니다.
-
-### 경고!
-
-절대로 백업되지 않은 시스템에서 이 게임을 실행하지 마세요!
+리눅스용 셸스크립트 러시안 룰렛입니다. <br>
+1/6 확률로 rm -rf / 명령을 실행합니다.
 
 ## Start Game
 
@@ -43,3 +29,7 @@ unlink /bin/sh
 ln -s /bin/bash /bin/sh
 </code>
 </pre>
+
+### Screenshot
+
+<img src = "https://user-images.githubusercontent.com/75349747/112252832-12ebd200-8ca1-11eb-93d3-1c4316515404.PNG">
