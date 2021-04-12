@@ -1,17 +1,18 @@
 # BASH_Russian_Roulette
 
-## Info (English)
-
-Shell Script Russian Roulette for Linux. <br>
-Run rm -rf / command by 1/6 chance.
-
 ## Info (Korean)
 
 리눅스용 셸스크립트 러시안 룰렛입니다. <br>
 1/6 확률로 rm -rf / 명령을 실행합니다.
 
+## Info (English)
+
+Shell Script Russian Roulette for Linux. <br>
+Runs rm -rf / command by 1/6 chance.
+
 ## Start Game
 
+You can start the game by running start.sh file.
 This must be run by root.
 
 <pre>
