@@ -2,22 +2,33 @@
 
 ## Info (English)
 
-Shell Script Russian Roulette for Linux. 
+Shell Script Russian Roulette for Linux. <br>
+Written in C++ / BASH.
 
-## Start Game
+## start.sh 
 
-You can start the game by running "start.sh".
-
-```
-cd ./BASH_Russian_Roulette
-sudo sh start.sh
-```
-
-### If Error Occured 
+You can start the game by simply running "start.sh".
 
 ```
-unlink /bin/sh
-ln -s /bin/bash /bin/sh
+$ cd BASH_Russian_Roulette/
+$ sudo sh start.sh
+```
+
+### If error occured 
+
+```
+$ sudo unlink /bin/sh
+$ sudo ln -s /bin/bash /bin/sh
+```
+
+## start.cpp
+
+You can compile the "start.cpp" using G++ or run the "start.out".
+
+```
+$ cd BASH_Russian_Roulette/
+$ g++ -o start.out start.sh
+$ sudo ./start.out
 ```
 
 ## Screenshot
