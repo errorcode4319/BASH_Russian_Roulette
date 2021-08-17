@@ -3,7 +3,6 @@
 ## Info (English)
 
 Shell Script Russian Roulette for Linux. <br>
-Written in C++ / BASH.
 
 ## start.sh 
 
@@ -23,11 +22,12 @@ $ sudo ln -s /bin/bash /bin/sh
 
 ## start.cpp
 
-You can compile the "start.cpp" using G++ or run the "start.out".
+
+You can compile the "start.cpp" using G++ or run the attached "start.out".
 
 ```
 $ cd BASH_Russian_Roulette/
-$ g++ -o start.out start.sh
+$ g++ -o start.out start.cpp
 $ sudo ./start.out
 ```
 
