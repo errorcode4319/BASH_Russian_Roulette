@@ -2,16 +2,6 @@
 
 Shell Script Russian Roulette for Linux.
 
-## CPP_ver
-
-```
-$ cd BASH_Russian_Roulette/CPP_ver/
-$ make
-$ make clean
-$ sudo ./start
-```
-
-## BASH_ver
 
 ```
 $ cd BASH_Russian_Roulette/BASH_ver/
