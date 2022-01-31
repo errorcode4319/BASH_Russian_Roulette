@@ -1,14 +1,4 @@
-#!/bin/sh
-
-### check if script is run by root
-check_if_root() {
-	if [ $EUID != 0 ]; then 
-		echo -e "This must be run by root\nTry \"sudo sh start.sh\"";
-		exit;
-	fi;
-	
-	return 0;
-}
+#!/bin/bash
 
 ### default setting
 default_setting() {
@@ -148,6 +138,12 @@ game_setting() {
 	
 	return 0;
 }
+
+
+if [ $EUID != 0 ]; then 
+	echo -e "This must be run by root\nTry \"sudo sh start.sh\"";
+	exit;
+fi;
 
 check_if_root;
 game_setting;
